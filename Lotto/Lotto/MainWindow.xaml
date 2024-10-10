@@ -1,0 +1,18 @@
+﻿<Window x:Class="Lotto.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lotto"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="186" Margin="30,56,0,0" VerticalAlignment="Top" Width="200" Source="/Lotto.png"/>
+        <Label FontWeight="Bold" Content="De 6 LOTTO-getallen zijn:" HorizontalAlignment="Left" Margin="261,59,0,0" VerticalAlignment="Top" Width="250"/>
+        <TextBox Name="resultTextBox" HorizontalAlignment="Left" Margin="261,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250" Height="245"/>
+        <Button Click="startButton_Click"  Name="startButton" Content="Start" HorizontalAlignment="Left" Height="54" Margin="576,120,0,0" VerticalAlignment="Top" Width="198"/>
+        <Button Click="clearButton_Click"  Name="clearButton" Content="Wissen" HorizontalAlignment="Left" Height="54" Margin="576,216,0,0" VerticalAlignment="Top" Width="198"/>
+        <Button Click="closeButton_Click"  Name="closeButton" Content="Afsluiten" HorizontalAlignment="Left" Height="54" Margin="576,311,0,0" VerticalAlignment="Top" Width="198"/>
+
+    </Grid>
+</Window>
